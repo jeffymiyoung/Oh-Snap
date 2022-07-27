@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
@@ -35,7 +35,7 @@ function App() {
       ></Nav>
       <main>
         <div>
-          <Gallery></Gallery>
+          <Gallery currentCategory={currentCategory}></Gallery>
           <About></About>
         </div>
       </main>
