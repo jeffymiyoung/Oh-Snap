@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Oh-Snap/static/css/main.e1530e99.css",
+    "main.js": "/Oh-Snap/static/js/main.e1848752.js",
+    "static/js/787.137aa76a.chunk.js": "/Oh-Snap/static/js/787.137aa76a.chunk.js",
+    "static/media/0.jpg": "/Oh-Snap/static/media/0.aae354cffe126735c6a7.jpg",
+    "static/media/2.jpg": "/Oh-Snap/static/media/2.73361bef8e26b971e197.jpg",
+    "static/media/1.jpg": "/Oh-Snap/static/media/1.863e6935e38396aecb5d.jpg",
+    "static/media/3.jpg": "/Oh-Snap/static/media/3.dd376ef9a77aa73dbb1b.jpg",
+    "static/media/4.jpg": "/Oh-Snap/static/media/4.3b0c40e1612f92a7c758.jpg",
+    "static/media/cover-image.jpg": "/Oh-Snap/static/media/cover-image.533ae8f6f0bf6c415f11.jpg",
+    "index.html": "/Oh-Snap/index.html",
+    "main.e1530e99.css.map": "/Oh-Snap/static/css/main.e1530e99.css.map",
+    "main.e1848752.js.map": "/Oh-Snap/static/js/main.e1848752.js.map",
+    "787.137aa76a.chunk.js.map": "/Oh-Snap/static/js/787.137aa76a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1530e99.css",
+    "static/js/main.e1848752.js"
+  ]
+}
