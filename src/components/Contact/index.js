@@ -29,14 +29,17 @@ function ContactForm() {
     }
 
     // handleSubmit function
-    function handleSubmit(e) {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formState);
-    }
+        if (!errorMessage) {
+            setFormState({ [e.target.name]: e.target.value });
+            console.log('Form', formState);
+        }
+    };
 
     return (
         <section>
-            <h1>Contact me</h1>
+            <h1 data-testid="h1tag">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -55,7 +58,7 @@ function ContactForm() {
                         </div>
                     )}
                 </div>
-                <button type="submit">Submit</button>
+                <button data-testid="button" type="submit">Submit</button>
             </form>
         </section>
     )
